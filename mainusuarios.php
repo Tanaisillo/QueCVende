@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mainusuarios.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Qué C vende USM</title>
+    <title>Editor de Perfil</title>
 </head>
 <body>
+    <div class= "texto-pe">
     <div class="login-box">
-        <img class = "logo" src="img/logo.png" alt="sasuke">
         <h1>Subida de archivos</h1>
-        
+        <h2>Debes proporcionar una imagen clara, que muestre tu puesto de ventas o tu producto estrella, en una resolución entre 640x480 y 1920x1080 pixeles</h2>
         <?php
         $formatos = array('.jpg','.jpeg','.png');
         if (isset($_POST['boton'])){
