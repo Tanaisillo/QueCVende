@@ -68,8 +68,17 @@ body {
     margin-left: 50%;
     color: black;
 }
+.editor-perfil input[type="submit"], [name ="boton1"] {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    position: center;
 
-.editor-perfil input[type="submit"] {
+}
+.editor-perfil input[type="submit"], [name ="boton2"] {
     width: 500px;
     border: none;
     outline: none;
