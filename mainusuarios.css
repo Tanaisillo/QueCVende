@@ -7,9 +7,9 @@ body {
     height: 100vh;
 }
 
-.login-box {
+.editor-perfil {
     width: 100%;
-    height: 350px;
+    height: 90%;
     background: #ebe0b2;
     color: #ffffff;
     top: 50%;
@@ -20,37 +20,65 @@ body {
     padding: 70px 50px;
 }
 
+.editor-perfil desc {
+    width: 30%;
+    border-right: 60%;
+    font-size: 20px;
+    text-align: justify;
+    position: relative;
+    color: black;
 
-.login-box h1 {
+}
+
+.editor-perfil h1 {
     margin: 0;
     margin-bottom: 20px;
+    margin-right: 10%;
     padding: 0 0 20px;
-    text-align: right;
+    text-align: left;
     font-size: 35px;
-    margin-right: 50px;
+    color: black;
 }
-.login-box h2 {
+
+.editor-perfil h2 {
     width: 30%;
     margin-right: 10%;
     margin-left: 60%;
     font-size: 20px;
-    text-align: right;
-    position:absolute;
+    text-align: justify;
+    position: relative;
+    color: black;
 }
 
-.login-box label {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    display: block;
+.editor-perfil input[type = "text"], [name="Nombre"] {
+    width: 30%;
+    height: 7%;
+    font-size: 20px;
 }
 
-.login-box input {
-    width: 100%;
-    margin-bottom: 30px;
+.editor-perfil input[type = "text"], [name="Desc1"] {
+    width: 30%;
+    height: 7%;
+    font-size: 20px;
 }
 
-.login-box input[type="submit"] {
+.editor-perfil input[type = "file"] {
+    width: 30%;
+    height: 5%;
+    margin-left: 50%;
+    color: black;
+}
+.editor-perfil input[type="submit"], [name ="boton1"] {
+    width: 400px;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    position: center;
+
+}
+.editor-perfil input[type="submit"], [name ="boton2"] {
     width: 500px;
     border: none;
     outline: none;
@@ -60,16 +88,4 @@ body {
     font-family: sans-serif;
     color: black;
     position: left;
-}
-
-.login-box a {
-    text-decoration: none;
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 20px;
-    color: darkgrey;
-}
-
-.login-box a:hover {
-    color: #07607e;
 }
